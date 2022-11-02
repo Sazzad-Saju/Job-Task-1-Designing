@@ -1,5 +1,6 @@
 .header {
-    background: url("/img/Background.png") bottom;
+    /* background-image: linear-gradient(rgba(43, 46, 74, 0.5), rgba(43, 46, 74, 0.5)), url('/img/Background.png') bottom; */
+    background: linear-gradient(rgba(43, 46, 74, 0.95), rgba(43, 46, 74, 0.95)), url('/img/Background.png') bottom;
     /* bottom shows from bottom to top */
     background-repeat: no-repeat;
     background-size: cover;
