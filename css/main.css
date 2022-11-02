@@ -1,0 +1,10 @@
+.header {
+    background: url("/img/Background.png") bottom;
+    /* bottom shows from bottom to top */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* this stop zooming inside */
+    background-position: bottom top;
+    height: 80vh;
+    width: 100%;
+}
