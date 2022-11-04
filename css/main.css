@@ -9,3 +9,78 @@
     height: 80vh;
     width: 100%;
 }
+
+nav {
+    padding: 10px;
+    color: white;
+}
+
+nav .logo {
+    padding: 8px 20px;
+    height: 80px;
+    float: left;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    line-height: 73px;
+    padding: 12px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Raleway';
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+nav hr {
+    width: 96%;
+    height: 7px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.headline {
+    color: #fff;
+}
+
+.headline div {
+    font-family: 'Open Sans';
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.headline p {
+    font-family: 'Raleway';
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.red-btn {
+    font-family: 'Raleway';
+    /* line-height: 18px; */
+    /* font-weight: 100; */
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    width: 200px;
+    height: 42px;
+    margin-top: 55px;
+    border: 0px;
+    border-radius: 2px;
+    background-color: #e84545;
+}
