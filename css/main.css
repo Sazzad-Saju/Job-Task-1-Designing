@@ -6,7 +6,7 @@
     background-size: cover;
     /* this stop zooming inside */
     background-position: bottom top;
-    height: 80vh;
+    height: 85vh;
     width: 100%;
 }
 
@@ -83,4 +83,41 @@ nav hr {
     border: 0px;
     border-radius: 2px;
     background-color: #e84545;
+}
+
+.featureSec {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    width: 82%;
+    justify-content: center;
+}
+
+.featureSec div div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.featureSec div div img {
+    padding: auto;
+    height: 70px;
+    width: 70px;
+}
+
+.featureSec div div strong {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: 13px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.featureSec div div small {
+    color: #6c7279;
+    font-size: 12px;
+    font-family: 'Raleway';
 }
