@@ -116,11 +116,15 @@ nav hr {
     text-transform: uppercase;
 }
 
-.featureSec div div small {
+
+/* .featureSec div div small {
     color: #6c7279;
     font-size: 12px;
     font-family: 'Raleway';
-}
+} */
+
+
+/* replaced with description */
 
 
 /* work section design */
@@ -134,7 +138,7 @@ nav hr {
 .work-sec img {
     padding: 0.5px;
     opacity: 1;
-    backface-visibility: hidden;
+    /* backface-visibility: hidden; */
     transition: .5s ease;
 }
 
@@ -177,4 +181,62 @@ nav hr {
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+
+/* team section */
+
+
+/* similar to futureSec */
+
+.teamSection {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    width: 75%;
+    justify-content: center;
+}
+
+.teamSection .fullname {
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.title-sec {
+    color: #e84545;
+    font-size: 14px;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+}
+
+.teamSection div div .description {
+    margin-top: 25px;
+}
+
+.description {
+    display: block;
+    color: #6c7279;
+    font-size: 14px;
+    font-family: 'Raleway';
+}
+
+.social-links {
+    margin-top: 25px;
+    color: #c5c9cc;
+}
+
+.social-links small i {
+    text-align: center;
+    width: 30px;
+}
+
+.social-links small {
+    font-size: 16px;
+    border: 1px solid #e7ebed;
+    padding: 5px 0 5px 0;
 }
