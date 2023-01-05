@@ -251,7 +251,6 @@ nav hr {
 
 .client-sec {
     margin-top: 70px;
-    margin-bottom: 100px;
 }
 
 .container-fluid {
@@ -285,7 +284,6 @@ nav hr {
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-    /* background-color: blueviolet; */
     opacity: 0%;
 }
 
@@ -300,4 +298,93 @@ nav hr {
     height: 10px!important;
     border-radius: 100%;
     margin: 3px!important;
+}
+
+
+/* Download Sec */
+
+.download-sec {
+    margin: 6rem 0 6rem 0;
+    font-family: 'Raleway';
+}
+
+.download-sec p {
+    font-size: 28px;
+    margin-bottom: 3px;
+}
+
+.download-sec strong {
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.download-sec button {
+    background-color: #e84545;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 2.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+/* Location Sec */
+
+.location-sec {
+    background-color: #393d63;
+    color: white;
+    padding: 50px 0 50px 0;
+    /* height: 200px; */
+}
+
+.location-sec strong {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+
+.location-sec small {
+    display: block;
+    opacity: 0.5;
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.location-sec div {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.social-links-bottom {
+    /* margin-top: 25px; */
+    color: white;
+    font-weight: bold;
+}
+
+.social-links-bottom small i {
+    /* opacity: 1; */
+    text-align: center;
+    width: 30px;
+}
+
+.social-links-bottom small {
+    opacity: 1;
+    display: inline;
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 5px 0 5px 0;
+    margin-left: 5px;
 }
