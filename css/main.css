@@ -388,3 +388,27 @@ nav hr {
     padding: 5px 0 5px 0;
     margin-left: 5px;
 }
+
+
+/* footer */
+
+.footer {
+    background-color: #313454;
+    padding: 15px 0 15px 0;
+    color: white;
+}
+
+.footer small {
+    opacity: .3;
+    font-family: 'Myriad-Pro';
+    font-size: 12px;
+}
+
+.footer span {
+    font-family: 'Myriad-Pro';
+    font-size: 12px;
+}
+
+.footer i {
+    color: #e84545;
+}
